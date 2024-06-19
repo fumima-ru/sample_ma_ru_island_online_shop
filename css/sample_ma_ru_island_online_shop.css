@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #050507;
+  font-size: 1rem;
+  /*font-family: ;*/
+}
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #050507;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+/* --#header----------------------- */
+.header__flex {
+  justify-content: space-between;
+}
+
+.header__logo {
+  align-items: center;
+}
+
+.header__logo a {
+  margin: 10px 10px 10px 50px;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header__logo p {
+  font-size: 2rem;
+}
+
+.header__menu {
+  align-items: center;
+}
+
+.header__user_nav__list {
+  margin-right: 15px;
+}
+
+.header__cart {
+  margin-right: 15px;
+}
+
+.header__user_nav__list i,
+.header__cart i {
+  margin-right: 5px;
+}
+
+
+
+/* --ハンバーガーメニュー------------ */
+/* --#mainvisual------------------- */
+/* --#information------------------ */
+/* --#access----------------------- */
+/* --#contact---------------------- */
+/* --#footer----------------------- */
+/* --レスポンシブ------------------- */
+/* Bootstrapのデフォルトのブレークポイント */
+/* 下記を元にpaddingで調整*/
+/*@media (min-width: 576px) { ... } /* Small devices */
+
+/*@media (min-width: 768px) { ... } /* Medium devices */
+
+/*@media (min-width: 992px) { ... } /* Large devices */
+
+/*@media (min-width: 1200px) { ... } /* Extra large devices */
+
+
+
+/* まず、htmlにcustom-containerクラスを作成しておくという理解で良いですか？
+@media (min-width: 1200px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .custom-component {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}*/
+
+/* --レスポンシブ#information------- */
+/* --レスポンシブ#access------------ */
+/* --レスポンシブ#contact----------- */
+/* --レスポンシブ#footer------------ */
+
+/* --やることリスト----------------- */
+/* ○島地域文化センター */
