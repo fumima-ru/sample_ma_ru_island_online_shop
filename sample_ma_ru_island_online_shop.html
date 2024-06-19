@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <!-- ビューポート設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- タイトルと説明 -->
+    <title>○島オンラインショップ</title>
+    <meta name="description" content="○島オンラインショップでは、新鮮な○島の特産品や美味しいお土産、無添加食品、オリジナルグッズなど、暮らしを豊かにする商品を豊富に取り揃えています。今すぐチェック！">
+
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
+
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!-- slickのCSS slickを入れる場合に記述-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.9.0/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+
+    <!--Google Fonts設定-->
+    <link rel=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome読み込み(最新バージョンに更新すること)-->
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--css読み込み-->
+    <link rel="stylesheet" href="css/sample_ma_ru_island_online_shop.css">
+    
+    <!--Google の CDNを使用-->
+    <!--(CDNを経由する方法であればjQueryをダウンロードする必要がない　バージョンが変わることがあるので注意すること)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!--jsファイル読み込み--（すべてのjsファイルを読み込む書いた順に実行される意識を持つこと）-->  
+    <script src="js/sample_ma_ru_island_online_shop.js" defer></script>
+  </head>
+
+  <body>
+
+
+    <!--#header-------------------------->
+    <header id="header">
+      <div class="flex header__flex">
+        <h1 class="header__logo">
+          <a href="#" class="flex">
+            <img src="img/fumima_ru_logo.png" alt="○島オンラインショップ">
+            <p>○島オンラインショップ</p>
+          </a>
+        </h1>
+
+        <div class="flex header__menu">
+          <div class="header__user_nav">
+            <ul class="flex">
+              <li class="header__user_nav__list">
+                <a href="#">
+                  <i class="fa-solid fa-right-to-bracket"></i>ログイン
+                </a>
+              </li>
+              <li class="header__user_nav__list">
+                <a href="#">
+                  <i class="fa-solid fa-user-plus"></i>新規会員登録
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__cart">
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping"></i>カート
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__category_search">
+
+      </div>
+    </header>
+
+    <!--.container----------------------->
+    <div class="container">
+      <!--main----------------------------->
+      <main></main>
+      
+      <!--#footer-------------------------->
+      <footer id="footer">
+        <p class="copyright">&copy; <!--サイトタイトル--></p>
+      </footer>
+    </div>
+  </body>
+</html>
